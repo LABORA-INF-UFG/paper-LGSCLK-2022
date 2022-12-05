@@ -1,0 +1,587 @@
+{
+    "nodes": [
+        {
+            "nodeNumber": 0,
+            "cpu": 0,
+            "RU": 0,
+            "MEC": 0
+        },
+        {
+            "nodeNumber": 1,
+            "cpu": 32,
+            "RU": 0,
+            "MEC": 0
+        },
+        {
+            "nodeNumber": 2,
+            "cpu": 32,
+            "RU": 0,
+            "MEC": 0
+        },
+        {
+            "nodeNumber": 3,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 4,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 5,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 6,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 7,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 8,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 9,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 10,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 11,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 12,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 13,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 14,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 15,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 16,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 17,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 18,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 19,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 20,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 21,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 22,
+            "cpu": 32,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 23,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 24,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 25,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 26,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 27,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 28,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 29,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 30,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 31,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 32,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 33,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 34,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 35,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 36,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 37,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 38,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 39,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 40,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 41,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 42,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 43,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 44,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 45,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 46,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 47,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 48,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 49,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 50,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 51,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 52,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 53,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 54,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 55,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 56,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 57,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 58,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 59,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 60,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 61,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 62,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 63,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 64,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 65,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 66,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 67,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 68,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 69,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 70,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 71,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 72,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 73,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 74,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 75,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 76,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 77,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 78,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 79,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 80,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 81,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 82,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 83,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 84,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 85,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 86,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 87,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 88,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 89,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 90,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 91,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 92,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 93,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 94,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 95,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        },
+        {
+            "nodeNumber": 96,
+            "cpu": 16,
+            "RU": 1,
+            "MEC": 1
+        }
+    ]
+}
+

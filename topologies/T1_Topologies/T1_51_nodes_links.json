@@ -1,0 +1,382 @@
+{
+  "links": [
+    {
+      "capacity": 20,
+      "delay": 0.46215,
+      "fromNode": 3,
+      "toNode": 10
+    },
+    {
+      "capacity": 20,
+      "delay": 0.9073,
+      "fromNode": 10,
+      "toNode": 11
+    },
+    {
+      "capacity": 50,
+      "delay": 0.5887,
+      "fromNode": 11,
+      "toNode": 12
+    },
+    {
+      "capacity": 50,
+      "delay": 0.65475,
+      "fromNode": 12,
+      "toNode": 13
+    },
+    {
+      "capacity": 20,
+      "delay": 0.53835,
+      "fromNode": 13,
+      "toNode": 14
+    },
+    {
+      "capacity": 20,
+      "delay": 0.51565,
+      "fromNode": 14,
+      "toNode": 15
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4927,
+      "fromNode": 3,
+      "toNode": 15
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4324,
+      "fromNode": 3,
+      "toNode": 5
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4447,
+      "fromNode": 5,
+      "toNode": 6
+    },
+    {
+      "capacity": 50,
+      "delay": 0.51875,
+      "fromNode": 6,
+      "toNode": 7
+    },
+    {
+      "capacity": 20,
+      "delay": 0.42765,
+      "fromNode": 7,
+      "toNode": 8
+    },
+    {
+      "capacity": 50,
+      "delay": 0.41795,
+      "fromNode": 8,
+      "toNode": 9
+    },
+    {
+      "capacity": 20,
+      "delay": 0.42875,
+      "fromNode": 3,
+      "toNode": 9
+    },
+    {
+      "capacity": 20,
+      "delay": 0.69665,
+      "fromNode": 4,
+      "toNode": 16
+    },
+    {
+      "capacity": 20,
+      "delay": 0.60725,
+      "fromNode": 16,
+      "toNode": 17
+    },
+    {
+      "capacity": 20,
+      "delay": 0.80035,
+      "fromNode": 17,
+      "toNode": 18
+    },
+    {
+      "capacity": 50,
+      "delay": 0.52605,
+      "fromNode": 18,
+      "toNode": 19
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4578,
+      "fromNode": 19,
+      "toNode": 20
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4233,
+      "fromNode": 20,
+      "toNode": 21
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4439,
+      "fromNode": 4,
+      "toNode": 21
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4208,
+      "fromNode": 4,
+      "toNode": 22
+    },
+    {
+      "capacity": 20,
+      "delay": 0.41225,
+      "fromNode": 22,
+      "toNode": 23
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4175,
+      "fromNode": 23,
+      "toNode": 24
+    },
+    {
+      "capacity": 50,
+      "delay": 0.43185,
+      "fromNode": 24,
+      "toNode": 25
+    },
+    {
+      "capacity": 20,
+      "delay": 0.50025,
+      "fromNode": 25,
+      "toNode": 26
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4929,
+      "fromNode": 4,
+      "toNode": 26
+    },
+    {
+      "capacity": 20,
+      "delay": 0.5381,
+      "fromNode": 4,
+      "toNode": 27
+    },
+    {
+      "capacity": 20,
+      "delay": 0.5381,
+      "fromNode": 27,
+      "toNode": 28
+    },
+    {
+      "capacity": 50,
+      "delay": 0.5446,
+      "fromNode": 28,
+      "toNode": 29
+    },
+    {
+      "capacity": 50,
+      "delay": 0.54015,
+      "fromNode": 29,
+      "toNode": 30
+    },
+    {
+      "capacity": 20,
+      "delay": 0.6715,
+      "fromNode": 30,
+      "toNode": 31
+    },
+    {
+      "capacity": 20,
+      "delay": 0.7303,
+      "fromNode": 4,
+      "toNode": 31
+    },
+    {
+      "capacity": 20,
+      "delay": 0.40945,
+      "fromNode": 1,
+      "toNode": 32
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4367,
+      "fromNode": 32,
+      "toNode": 33
+    },
+    {
+      "capacity": 50,
+      "delay": 0.68665,
+      "fromNode": 33,
+      "toNode": 34
+    },
+    {
+      "capacity": 50,
+      "delay": 0.5954,
+      "fromNode": 34,
+      "toNode": 35
+    },
+    {
+      "capacity": 20,
+      "delay": 0.46425,
+      "fromNode": 35,
+      "toNode": 36
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4607,
+      "fromNode": 36,
+      "toNode": 37
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4128,
+      "fromNode": 1,
+      "toNode": 37
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4222,
+      "fromNode": 1,
+      "toNode": 38
+    },
+    {
+      "capacity": 20,
+      "delay": 0.40375,
+      "fromNode": 38,
+      "toNode": 39
+    },
+    {
+      "capacity": 50,
+      "delay": 0.40755,
+      "fromNode": 39,
+      "toNode": 40
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4127,
+      "fromNode": 40,
+      "toNode": 41
+    },
+    {
+      "capacity": 20,
+      "delay": 0.42585,
+      "fromNode": 41,
+      "toNode": 42
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4407,
+      "fromNode": 2,
+      "toNode": 42
+    },
+    {
+      "capacity": 20,
+      "delay": 0.43645,
+      "fromNode": 2,
+      "toNode": 43
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4343,
+      "fromNode": 43,
+      "toNode": 44
+    },
+    {
+      "capacity": 50,
+      "delay": 0.4277,
+      "fromNode": 44,
+      "toNode": 45
+    },
+    {
+      "capacity": 50,
+      "delay": 0.41585,
+      "fromNode": 45,
+      "toNode": 46
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4177,
+      "fromNode": 1,
+      "toNode": 46
+    },
+    {
+      "capacity": 20,
+      "delay": 0.50395,
+      "fromNode": 2,
+      "toNode": 47
+    },
+    {
+      "capacity": 50,
+      "delay": 0.49395,
+      "fromNode": 47,
+      "toNode": 48
+    },
+    {
+      "capacity": 20,
+      "delay": 0.47865,
+      "fromNode": 48,
+      "toNode": 49
+    },
+    {
+      "capacity": 20,
+      "delay": 0.45075,
+      "fromNode": 49,
+      "toNode": 50
+    },
+    {
+      "capacity": 20,
+      "delay": 0.417,
+      "fromNode": 50,
+      "toNode": 51
+    },
+    {
+      "capacity": 20,
+      "delay": 0.4347,
+      "fromNode": 2,
+      "toNode": 51
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4,
+      "fromNode": 1,
+      "toNode": 2
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4553,
+      "fromNode": 1,
+      "toNode": 3
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4553,
+      "fromNode": 2,
+      "toNode": 3
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4296,
+      "fromNode": 1,
+      "toNode": 4
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4296,
+      "fromNode": 2,
+      "toNode": 4
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4,
+      "fromNode": 0,
+      "toNode": 1
+    },
+    {
+      "capacity": 200,
+      "delay": 0.4,
+      "fromNode": 0,
+      "toNode": 2
+    }
+  ]
+}

@@ -1,0 +1,1103 @@
+1000
+k_list:  [19, 25, 26]
+k:  19
+centralization_points [1, 3, 5, 7, 9, 2, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 4, 6]
+Running Stage - 0
+------------------------------------------------------------------------------------------------------------
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              202001241
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Presolve has eliminated 305932 rows and 382573 columns...
+Tried aggregator 2 times.
+MIP Presolve eliminated 601889 rows and 470371 columns.
+MIP Presolve modified 903 coefficients.
+Aggregator did 83061 substitutions.
+Reduced MIP has 25018 rows, 49430 columns, and 54009 nonzeros.
+Reduced MIP has 24624 binaries, 0 generals, 0 SOSs, and 1929 indicators.
+Presolve time = 1.34 sec. (31382.95 ticks)
+Probing fixed 637 vars, tightened 1426 bounds.
+Probing time = 0.02 sec. (7.01 ticks)
+Cover probing fixed 0 vars, tightened 361 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 22912 rows and 46753 columns.
+MIP Presolve modified 359 coefficients.
+Aggregator did 445 substitutions.
+Reduced MIP has 2378 rows, 2232 columns, and 7686 nonzeros.
+Reduced MIP has 944 binaries, 30 generals, 0 SOSs, and 44 indicators.
+Presolve time = 0.02 sec. (33.33 ticks)
+Probing time = 0.01 sec. (4.82 ticks)
+Cover probing fixed 16 vars, tightened 8 bounds.
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 142 rows and 144 columns.
+MIP Presolve added 21 rows and 0 columns.
+MIP Presolve modified 90 coefficients.
+Aggregator did 71 substitutions.
+Reduced MIP has 2180 rows, 2017 columns, and 7215 nonzeros.
+Reduced MIP has 877 binaries, 30 generals, 0 SOSs, and 44 indicators.
+Presolve time = 0.01 sec. (11.22 ticks)
+Probing time = 0.00 sec. (2.56 ticks)
+Clique table members: 4845.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (11.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.9062   309                      0.9062      516         
+*     0+    0                            0.9062        0.9062             0.00%
+      0     0        cutoff              0.9062        0.9062      541    0.00%
+Elapsed time = 3.45 sec. (34860.18 ticks, tree = 0.01 MB, solutions = 1)
+
+Cover cuts applied:  12
+Implied bound cuts applied:  105
+Flow cuts applied:  4
+Mixed integer rounding cuts applied:  13
+Gomory fractional cuts applied:  9
+
+Root node processing (before b&c):
+  Real time             =    3.47 sec. (34874.89 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.47 sec. (34874.89 ticks)
+Stage 0 - Alocation Time: 52.48453736305237
+Stage 0 - Enlapsed Time: 4.097861051559448
+x(216, 18, 1) -> 1.0
+[0, 0, 3]
+x(217, 18, 2) -> 1.0
+[0, 0, 4]
+x(219, 18, 3) -> 1.0
+[0, 0, 5]
+x(221, 18, 4) -> 1.0
+[0, 0, 6]
+x(223, 18, 5) -> 1.0
+[0, 0, 7]
+x(225, 18, 6) -> 1.0
+[0, 0, 8]
+x(227, 18, 7) -> 1.0
+[0, 0, 9]
+x(229, 18, 8) -> 1.0
+[0, 0, 10]
+x(232, 18, 9) -> 1.0
+[0, 0, 11]
+x(234, 18, 10) -> 1.0
+[0, 0, 12]
+x(238, 18, 11) -> 1.0
+[0, 0, 13]
+x(240, 18, 12) -> 1.0
+[0, 0, 14]
+x(244, 18, 13) -> 1.0
+[0, 0, 15]
+x(246, 18, 14) -> 1.0
+[0, 0, 16]
+x(250, 18, 15) -> 1.0
+[0, 0, 17]
+x(252, 18, 16) -> 1.0
+[0, 0, 18]
+x(256, 18, 17) -> 1.0
+[0, 0, 19]
+x(258, 18, 18) -> 1.0
+[0, 0, 20]
+x(262, 18, 19) -> 1.0
+[0, 0, 21]
+x(264, 18, 20) -> 1.0
+[0, 0, 22]
+x(268, 18, 21) -> 1.0
+[0, 0, 23]
+x(270, 18, 22) -> 1.0
+[0, 0, 24]
+x(273, 18, 23) -> 1.0
+[0, 0, 25]
+x(276, 18, 24) -> 1.0
+[0, 0, 26]
+x(279, 18, 25) -> 1.0
+[0, 0, 27]
+x(282, 18, 26) -> 1.0
+[0, 0, 28]
+x(285, 18, 27) -> 1.0
+[0, 0, 29]
+x(289, 18, 28) -> 1.0
+[0, 0, 30]
+x(291, 18, 29) -> 1.0
+[0, 0, 31]
+x(295, 18, 30) -> 1.0
+[0, 0, 32]
+y(216, 18, 1) -> 1.0
+y(217, 18, 2) -> 1.0000000000000013
+y(219, 18, 3) -> 1.0000000000000013
+y(221, 18, 4) -> 1.0000000000000013
+y(223, 18, 5) -> 1.0000000000000013
+y(225, 18, 6) -> 1.0000000000000013
+y(227, 18, 7) -> 1.0000000000000013
+y(229, 18, 8) -> 1.0000000000000013
+y(232, 18, 9) -> 1.0
+y(234, 18, 10) -> 1.0
+y(238, 18, 11) -> 1.0
+y(240, 18, 12) -> 1.0
+y(244, 18, 13) -> 1.0
+y(246, 18, 14) -> 1.0
+y(250, 18, 15) -> 1.0
+y(252, 18, 16) -> 1.0
+y(256, 18, 17) -> 1.0
+y(258, 18, 18) -> 1.0
+y(262, 18, 19) -> 1.000000000000001
+y(264, 18, 20) -> 1.0
+y(268, 18, 21) -> 1.0
+y(270, 18, 22) -> 1.0
+y(273, 18, 23) -> 1.0
+y(276, 18, 24) -> 1.0
+y(279, 18, 25) -> 1.0
+y(282, 18, 26) -> 1.0
+y(285, 18, 27) -> 1.0
+y(289, 18, 28) -> 1.0
+y(291, 18, 29) -> 1.0
+y(295, 18, 30) -> 1.0
+FO: 0.90625
+0{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+1{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+2{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+3{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+4{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+5{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+6{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+7{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+8{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+9{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+10{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+11{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+12{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+13{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+14{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+15{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+16{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+17{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+18{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+19{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+20{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+21{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+22{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+23{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+24{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+25{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+26{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+27{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+28{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+29{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+30{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+31{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+32{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+Running Stage - 1
+------------------------------------------------------------------------------------------------------------
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              202001241
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               120
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1
+Presolve has eliminated 0 rows and 0 columns...
+Reduced MIP has 820110 rows, 815745 columns, and 1775848 nonzeros.
+Reduced MIP has 233702 binaries, 0 generals, 0 SOSs, and 232764 indicators.
+Presolve time = 0.45 sec. (155473.66 ticks)
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 30.0000.
+Presolve has eliminated 326172 rows and 409364 columns...
+Tried aggregator 2 times.
+MIP Presolve eliminated 643145 rows and 503730 columns.
+MIP Presolve modified 903 coefficients.
+Aggregator did 84987 substitutions.
+Reduced MIP has 26599 rows, 51356 columns, and 60255 nonzeros.
+Reduced MIP has 25266 binaries, 0 generals, 0 SOSs, and 3213 indicators.
+Presolve time = 1.25 sec. (34129.31 ticks)
+Probing fixed 637 vars, tightened 2690 bounds.
+Probing time = 0.07 sec. (20.14 ticks)
+Cover probing fixed 0 vars, tightened 987 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 23344 rows and 47273 columns.
+MIP Presolve modified 1291 coefficients.
+Aggregator did 662 substitutions.
+Reduced MIP has 3853 rows, 3421 columns, and 13361 nonzeros.
+Reduced MIP has 1373 binaries, 30 generals, 0 SOSs, and 66 indicators.
+Presolve time = 0.03 sec. (39.01 ticks)
+Probing fixed 0 vars, tightened 12 bounds.
+Probing time = 0.01 sec. (1.90 ticks)
+Cover probing fixed 0 vars, tightened 19 bounds.
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 352 rows and 66 columns.
+MIP Presolve modified 184 coefficients.
+Aggregator did 49 substitutions.
+Reduced MIP has 3460 rows, 3306 columns, and 12542 nonzeros.
+Reduced MIP has 1342 binaries, 32 generals, 0 SOSs, and 58 indicators.
+Presolve time = 0.03 sec. (29.71 ticks)
+Probing time = 0.01 sec. (1.79 ticks)
+Clique table members: 6979.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.03 sec. (27.92 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           30.0000     -145.0000           583.33%
+      0     0      -90.0000   655       30.0000      -90.0000     1030  400.00%
+      0     0      -78.7008   529       30.0000     Cuts: 965     1936  362.34%
+      0     0      -62.1569   614       30.0000     Cuts: 965     2682  307.19%
+      0     0      -60.8502   626       30.0000     Cuts: 965     3356  302.83%
+      0     0      -59.1974   656       30.0000     Cuts: 965     3956  297.32%
+      0     0      -58.4479   682       30.0000     Cuts: 819     4566  294.83%
+      0     0      -55.5224   667       30.0000     Cuts: 752     5152  285.07%
+      0     0      -55.1769   675       30.0000     Cuts: 828     5593  283.92%
+*     0+    0                           22.0000      -55.1769           350.80%
+      0     0      -54.6774   755       22.0000     Cuts: 525     6258  348.53%
+*     0+    0                           20.0000      -54.6774           373.39%
+      0     0  -1.00000e+75     0       20.0000      -54.6774     6258  373.39%
+      0     0      -50.7280   658       20.0000     Cuts: 660     7132  353.64%
+      0     0      -47.3500   619       20.0000     Cuts: 965     8093  336.75%
+      0     0      -46.4236   689       20.0000     Cuts: 965     8870  332.12%
+      0     0      -45.0399   646       20.0000     Cuts: 899     9516  325.20%
+*     0+    0                           18.0000      -45.0399           350.22%
+      0     0      -44.6911   714       18.0000     Cuts: 953    10116  348.28%
+*     0+    0                           15.0000      -44.6911           397.94%
+      0     0  -1.00000e+75     0       15.0000      -44.6911    10116  397.94%
+      0     0      -43.8408   669       15.0000     Cuts: 805    10836  392.27%
+      0     0      -43.4250   708       15.0000     Cuts: 852    11374  389.50%
+      0     0      -42.7610   685       15.0000     Cuts: 677    11915  385.07%
+      0     0      -42.4970   679       15.0000     Cuts: 599    12386  383.31%
+      0     0      -42.4276   706       15.0000     Cuts: 649    12764  382.85%
+      0     0      -42.3603   697       15.0000     Cuts: 571    13237  382.40%
+      0     0      -42.0729   664       15.0000     Cuts: 465    13653  380.49%
+      0     0      -42.0037   675       15.0000     Cuts: 669    14003  380.02%
+      0     0      -41.9111   677       15.0000     Cuts: 616    14464  379.41%
+      0     0      -41.8581   717       15.0000     Cuts: 548    14774  379.05%
+*     0+    0                            9.0000      -41.8581           565.09%
+      0     0      -41.7997   733        9.0000     Cuts: 507    15144  560.93%
+      0     0      -40.6648   633        9.0000     Cuts: 369    15785  551.83%
+      0     0      -40.4422   669        9.0000     Cuts: 881    16354  549.36%
+      0     0      -40.3496   680        9.0000     Cuts: 619    16673  548.33%
+      0     0      -40.3034   701        9.0000     Cuts: 494    16872  547.82%
+      0     0      -40.2616   712        9.0000     Cuts: 428    17103  547.35%
+      0     0      -40.2112   710        9.0000     Cuts: 376    17348  546.79%
+      0     0      -40.1338   711        9.0000     Cuts: 360    17669  545.93%
+      0     0      -40.1047   745        9.0000     Cuts: 393    17904  545.61%
+      0     0      -40.0519   719        9.0000     Cuts: 370    18153  545.02%
+      0     0      -39.9084   718        9.0000     Cuts: 381    18374  543.43%
+      0     0      -39.8442   721        9.0000     Cuts: 309    18572  542.71%
+      0     0      -39.8253   735        9.0000     Cuts: 276    18702  542.50%
+      0     0      -39.7726   742        9.0000     Cuts: 209    18809  541.92%
+      0     0      -39.7623   728        9.0000     Cuts: 281    18948  541.80%
+      0     0      -39.7580   541        9.0000      Cuts: 70    19036  541.76%
+      0     0      -39.7533   589        9.0000     Cuts: 746    19288  541.70%
+*     0+    0                            6.0000      -39.7533           762.55%
+      0     2      -39.7533   553        6.0000      -39.7533    19288  762.55%
+Elapsed time = 14.68 sec. (196380.03 ticks, tree = 0.02 MB, solutions = 7)
+*    23+    5                            5.0000      -39.3202           886.40%
+*    28+    5                            4.0000      -39.3202              --- 
+     39    26      -25.6062   201        4.0000      -39.3202    25085     --- 
+*    41+    7                            0.0000      -39.3202              --- 
+*    88+   54                          -16.0000      -39.3202           145.75%
+    101    91      -23.7238   203      -16.0000      -39.3202    38394  145.75%
+    201   152      -33.7125   259      -16.0000      -39.3202    47117  145.75%
+    325   237      -29.5635   177      -16.0000      -39.3202    61447  145.75%
+*   402+  257                          -17.0000      -39.3202           131.30%
+    511   331      -20.5581    47      -17.0000      -39.3202    71498  131.30%
+    630   476      -29.9489   217      -17.0000      -39.3202    86355  131.30%
+    751   533      -27.2524   128      -17.0000      -39.3202    93981  131.30%
+    927   590      -37.6637   484      -17.0000      -39.3202   104344  131.30%
+*   933+  691                          -19.0000      -39.3202           106.95%
+   1135   748      -24.3711   111      -19.0000      -39.1282   117270  105.94%
+   1558  1151      -37.0184   460      -19.0000      -39.0032   175927  105.28%
+Elapsed time = 23.22 sec. (199490.87 ticks, tree = 4.96 MB, solutions = 13)
+   1851  1410      -38.0925   503      -19.0000      -38.5748   229341  103.03%
+   2071  1650      -25.6113   358      -19.0000      -38.5090   287635  102.68%
+   2483  1959      -33.8545   303      -19.0000      -38.4534   344177  102.39%
+   2758  2282      -38.0074   479      -19.0000      -38.3211   402813  101.69%
+   3028  2511      -37.2118   395      -19.0000      -38.2442   458551  101.29%
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 492 rows and 512 columns.
+MIP Presolve modified 2249 coefficients.
+Aggregator did 78 substitutions.
+Reduced MIP has 2890 rows, 2716 columns, and 9162 nonzeros.
+Reduced MIP has 1146 binaries, 32 generals, 0 SOSs, and 58 indicators.
+Presolve time = 0.03 sec. (21.24 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 49 coefficients.
+Reduced MIP has 2891 rows, 2716 columns, and 9164 nonzeros.
+Reduced MIP has 1146 binaries, 32 generals, 0 SOSs, and 57 indicators.
+Presolve time = 0.01 sec. (8.49 ticks)
+Represolve time = 0.55 sec. (485.47 ticks)
+   3226     0      -35.6090   464      -19.0000     Cuts: 650   501577   87.42%
+   3226     0      -34.9371   385      -19.0000     Cuts: 435   502077   83.88%
+   3226     0      -34.4086   465      -19.0000     Cuts: 483   502566   81.10%
+   3226     0      -33.3417   430      -19.0000     Cuts: 491   503234   75.48%
+   3226     0      -32.5184   413      -19.0000     Cuts: 430   503677   71.15%
+   3226     0      -31.5351   382      -19.0000     Cuts: 339   503981   65.97%
+   3226     0      -30.5760   364      -19.0000     Cuts: 286   504411   60.93%
+   3226     0      -29.9662   385      -19.0000     Cuts: 556   504974   57.72%
+   3226     0      -29.6606   325      -19.0000     Cuts: 323   505316   56.11%
+   3226     0      -29.1866   331      -19.0000     Cuts: 353   505747   53.61%
+   3226     0      -28.9385   374      -19.0000     Cuts: 307   506052   52.31%
+   3226     0      -28.6921   325      -19.0000     Cuts: 381   506366   51.01%
+   3226     0      -28.5774   369      -19.0000     Cuts: 256   506577   50.41%
+   3226     0      -28.5568   361      -19.0000     Cuts: 241   506737   50.30%
+   3226     0      -28.5232   372      -19.0000     Cuts: 192   506910   50.12%
+   3226     0      -28.5053   392      -19.0000     Cuts: 261   507033   50.03%
+   3226     0      -28.3863   346      -19.0000     Cuts: 134   507172   49.40%
+   3226     0      -28.3495   374      -19.0000     Cuts: 169   507321   49.21%
+   3226     0      -28.2989   372      -19.0000     Cuts: 153   507410   48.94%
+   3226     0      -28.2942   411      -19.0000     Cuts: 212   507548   48.92%
+   3226     0      -28.2851   382      -19.0000     Cuts: 152   507686   48.87%
+   3226     0      -28.2797   396      -19.0000     Cuts: 213   507828   48.84%
+   3226     0      -28.2764   382      -19.0000     Cuts: 133   508083   48.82%
+   3226     0      -28.2227   372      -19.0000     Cuts: 234   508384   48.54%
+   3226     0      -28.2126   413      -19.0000     Cuts: 407   508632   48.49%
+   3226     0      -28.2005   407      -19.0000     Cuts: 185   508812   48.42%
+   3226     0      -28.1880   397      -19.0000     Cuts: 174   508932   48.36%
+   3226     0      -28.1851   406      -19.0000     Cuts: 110   509019   48.34%
+   3226     0      -28.1323   372      -19.0000      Cuts: 45   509069   48.06%
+   3226     0      -28.1311   404      -19.0000     Cuts: 203   509225   48.06%
+   3226     0      -28.1300   390      -19.0000      Cuts: 74   509323   48.05%
+   3226     2      -28.1300   373      -19.0000      -28.1300   509323   48.05%
+   3227     3      -27.8467   331      -19.0000      -27.8638   509867   46.65%
+   3236     6      -22.7482   218      -19.0000      -27.8467   511802   46.56%
+   3360    48      -22.1653    97      -19.0000      -27.5330   522695   44.91%
+   3704   276        cutoff            -19.0000      -27.1216   551618   42.75%
+Elapsed time = 57.92 sec. (214183.39 ticks, tree = 0.34 MB, solutions = 13)
+   4048   500      -20.2029   175      -19.0000      -23.8427   610667   25.49%
+   4592   892      -20.2017   104      -19.0000      -21.3795   685054   12.52%
+   5119  1207        cutoff            -19.0000      -20.7422   757575    9.17%
+   5589  1480      -20.0703    52      -19.0000      -20.4535   818078    7.65%
+   5876  1730      -20.0460    88      -19.0000      -20.3524   877411    7.12%
+   6027  1811      -20.2057    91      -19.0000      -20.2828   926216    6.75%
+   6322  1953      -20.1831    74      -19.0000      -20.2626   990440    6.65%
+   6849  2361      -20.1831    57      -19.0000      -20.1965  1068512    6.30%
+   7389  2806      -19.0929   178      -19.0000      -20.1831  1149938    6.23%
+   7930  3091      -20.0000    30      -19.0000      -20.1753  1189585    6.19%
+Elapsed time = 88.37 sec. (223743.30 ticks, tree = 4.87 MB, solutions = 13)
+   8229  3354      -20.0301   109      -19.0000      -20.1181  1240657    5.88%
+   8762  3582        cutoff            -19.0000      -20.0988  1303540    5.78%
+   9218  3815        cutoff            -19.0000      -20.0607  1373796    5.58%
+   9722  4004        cutoff            -19.0000      -20.0338  1414057    5.44%
+  10062  4316      -19.6676    57      -19.0000      -20.0161  1487055    5.35%
+  10182  4447      -19.8333    84      -19.0000      -20.0000  1542133    5.26%
+  10478  4697      -20.0000    43      -19.0000      -20.0000  1622851    5.26%
+  10719  4877      -19.7038    77      -19.0000      -20.0000  1684058    5.26%
+
+GUB cover cuts applied:  34
+Clique cuts applied:  184
+Cover cuts applied:  43
+Implied bound cuts applied:  340
+Flow cuts applied:  125
+Mixed integer rounding cuts applied:  1111
+Zero-half cuts applied:  22
+Lift and project cuts applied:  55
+Gomory fractional cuts applied:  270
+
+Root node processing (before b&c):
+  Real time             =   14.61 sec. (196421.33 ticks)
+Parallel b&c, 8 threads:
+  Real time             =   98.36 sec. (35219.56 ticks)
+  Sync time (average)   =    9.63 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) =  112.97 sec. (231640.89 ticks)
+Stage 1 - Alocation Time: 61.37446141242981
+Stage 1 - Enlapsed Time: 113.6618332862854
+x(68, 17, 1) -> 1.0
+[0, 2, 3]
+x(76, 17, 5) -> 1.0
+[0, 2, 7]
+x(78, 17, 6) -> 1.0
+[0, 2, 8]
+x(80, 17, 7) -> 1.0
+[0, 2, 9]
+x(82, 17, 8) -> 1.0
+[0, 2, 10]
+x(87, 17, 9) -> 1.0
+[0, 2, 11]
+x(90, 17, 10) -> 1.0
+[0, 3, 12]
+x(98, 17, 11) -> 1.0
+[0, 4, 13]
+x(104, 17, 12) -> 1.0
+[0, 4, 14]
+x(111, 17, 13) -> 1.0
+[0, 2, 15]
+x(118, 17, 14) -> 1.0
+[0, 3, 16]
+x(120, 17, 15) -> 1.0
+[0, 3, 17]
+x(126, 17, 16) -> 1.0
+[0, 3, 18]
+x(136, 17, 17) -> 1.0
+[0, 3, 19]
+x(140, 17, 18) -> 1.0
+[0, 4, 20]
+x(146, 17, 19) -> 1.0
+[0, 4, 21]
+x(152, 17, 20) -> 1.0
+[0, 4, 22]
+x(159, 17, 21) -> 1.0
+[0, 2, 23]
+x(162, 17, 22) -> 1.0
+[0, 3, 24]
+x(168, 17, 23) -> 1.0
+[0, 5, 25]
+x(176, 17, 24) -> 1.0
+[0, 6, 26]
+x(184, 17, 25) -> 1.0
+[0, 5, 27]
+x(186, 17, 26) -> 1.0
+[0, 5, 28]
+x(192, 17, 27) -> 1.0
+[0, 5, 29]
+x(198, 17, 28) -> 1.0
+[0, 5, 30]
+x(206, 17, 29) -> 1.0
+[0, 6, 31]
+x(212, 17, 30) -> 1.0
+[0, 6, 32]
+x(217, 18, 2) -> 1.0
+[0, 0, 4]
+x(219, 18, 3) -> 1.0
+[0, 0, 5]
+x(221, 18, 4) -> 1.0
+[0, 0, 6]
+x(222, 18, 4) -> 1.0
+[0, 0, 6]
+y(68, 17, 1) -> 1.0
+y(76, 17, 5) -> 1.0
+y(78, 17, 6) -> 1.0
+y(80, 17, 7) -> 1.0
+y(82, 17, 8) -> 1.0
+y(87, 17, 9) -> 1.0
+y(90, 17, 10) -> 1.0
+y(98, 17, 11) -> 1.0
+y(104, 17, 12) -> 1.0
+y(111, 17, 13) -> 1.0
+y(118, 17, 14) -> 1.0
+y(120, 17, 15) -> 1.0
+y(126, 17, 16) -> 1.0
+y(136, 17, 17) -> 1.0
+y(140, 17, 18) -> 1.0
+y(146, 17, 19) -> 1.0
+y(152, 17, 20) -> 1.0
+y(159, 17, 21) -> 1.0
+y(162, 17, 22) -> 1.0
+y(168, 17, 23) -> 1.0
+y(176, 17, 24) -> 1.0
+y(184, 17, 25) -> 1.0
+y(186, 17, 26) -> 1.0
+y(192, 17, 27) -> 1.0
+y(198, 17, 28) -> 1.0
+y(206, 17, 29) -> 1.0
+y(212, 17, 30) -> 1.0
+y(217, 18, 2) -> 1.0
+y(219, 18, 3) -> 1.0
+y(221, 18, 4) -> 0.09999999999999998
+y(222, 18, 4) -> 0.9
+FO: -19.0
+0{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+1{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+2{'fb': 8, 'f8': 8, 'f7': 8, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+3{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+4{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+5{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+6{'fb': 5, 'f8': 5, 'f7': 5, 'f6': 2, 'f5': 2, 'f4': 2, 'f3': 2, 'f2': 2, 'f1': 2, 'f0': 2}
+7{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+8{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+9{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+10{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+11{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+12{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+13{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+14{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+15{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+16{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+17{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+18{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+19{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+20{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+21{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+22{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+23{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+24{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+25{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+26{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+27{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+28{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+29{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+30{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+31{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+32{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+############### Best Solution ##################
+cannot open file
+
+
+
+MEC_vRAN with flow split
+
+#----------------------------------------#
+inicial_delay:    |  0.90625
+worserning_limit: |  1000
+final delay:      |  117.99804687500006
+path delay:       |  117.50000000000006
+processing delay: |  0.498046875
+aggregation:      |  50
+#----------------------------------------#
+TOTAL TIME: 233.56413316726685
+k:  25
+centralization_points [1, 3, 5, 7, 9, 2, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 4, 6, 8, 10, 26, 28, 30, 32]
+Running Stage - 0
+------------------------------------------------------------------------------------------------------------
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              202001241
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_MIP_Tolerances_MIPGap                   0
+Presolve has eliminated 305932 rows and 382573 columns...
+Tried aggregator 2 times.
+MIP Presolve eliminated 602013 rows and 470371 columns.
+MIP Presolve modified 903 coefficients.
+Aggregator did 83061 substitutions.
+Reduced MIP has 25018 rows, 49430 columns, and 54009 nonzeros.
+Reduced MIP has 24624 binaries, 0 generals, 0 SOSs, and 1929 indicators.
+Presolve time = 1.18 sec. (31383.47 ticks)
+Probing fixed 637 vars, tightened 1426 bounds.
+Probing time = 0.02 sec. (7.01 ticks)
+Cover probing fixed 0 vars, tightened 361 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 22912 rows and 46753 columns.
+MIP Presolve modified 359 coefficients.
+Aggregator did 445 substitutions.
+Reduced MIP has 2378 rows, 2232 columns, and 7686 nonzeros.
+Reduced MIP has 944 binaries, 30 generals, 0 SOSs, and 44 indicators.
+Presolve time = 0.02 sec. (33.33 ticks)
+Probing time = 0.01 sec. (4.82 ticks)
+Cover probing fixed 16 vars, tightened 8 bounds.
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 142 rows and 144 columns.
+MIP Presolve added 21 rows and 0 columns.
+MIP Presolve modified 90 coefficients.
+Aggregator did 71 substitutions.
+Reduced MIP has 2180 rows, 2017 columns, and 7215 nonzeros.
+Reduced MIP has 877 binaries, 30 generals, 0 SOSs, and 44 indicators.
+Presolve time = 0.01 sec. (11.22 ticks)
+Probing time = 0.00 sec. (2.56 ticks)
+Clique table members: 4845.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.02 sec. (11.55 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.9062   309                      0.9062      516         
+*     0+    0                            0.9062        0.9062             0.00%
+      0     0        cutoff              0.9062        0.9062      541    0.00%
+Elapsed time = 3.29 sec. (34860.79 ticks, tree = 0.01 MB, solutions = 1)
+
+Cover cuts applied:  12
+Implied bound cuts applied:  105
+Flow cuts applied:  4
+Mixed integer rounding cuts applied:  13
+Gomory fractional cuts applied:  9
+
+Root node processing (before b&c):
+  Real time             =    3.31 sec. (34875.50 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    3.31 sec. (34875.50 ticks)
+Stage 0 - Alocation Time: 60.26823115348816
+Stage 0 - Enlapsed Time: 3.9868364334106445
+x(216, 18, 1) -> 1.0
+[0, 0, 3]
+x(217, 18, 2) -> 1.0
+[0, 0, 4]
+x(219, 18, 3) -> 1.0
+[0, 0, 5]
+x(221, 18, 4) -> 1.0
+[0, 0, 6]
+x(223, 18, 5) -> 1.0
+[0, 0, 7]
+x(225, 18, 6) -> 1.0
+[0, 0, 8]
+x(227, 18, 7) -> 1.0
+[0, 0, 9]
+x(229, 18, 8) -> 1.0
+[0, 0, 10]
+x(232, 18, 9) -> 1.0
+[0, 0, 11]
+x(234, 18, 10) -> 1.0
+[0, 0, 12]
+x(238, 18, 11) -> 1.0
+[0, 0, 13]
+x(240, 18, 12) -> 1.0
+[0, 0, 14]
+x(244, 18, 13) -> 1.0
+[0, 0, 15]
+x(246, 18, 14) -> 1.0
+[0, 0, 16]
+x(250, 18, 15) -> 1.0
+[0, 0, 17]
+x(252, 18, 16) -> 1.0
+[0, 0, 18]
+x(256, 18, 17) -> 1.0
+[0, 0, 19]
+x(258, 18, 18) -> 1.0
+[0, 0, 20]
+x(262, 18, 19) -> 1.0
+[0, 0, 21]
+x(264, 18, 20) -> 1.0
+[0, 0, 22]
+x(268, 18, 21) -> 1.0
+[0, 0, 23]
+x(270, 18, 22) -> 1.0
+[0, 0, 24]
+x(273, 18, 23) -> 1.0
+[0, 0, 25]
+x(276, 18, 24) -> 1.0
+[0, 0, 26]
+x(279, 18, 25) -> 1.0
+[0, 0, 27]
+x(282, 18, 26) -> 1.0
+[0, 0, 28]
+x(285, 18, 27) -> 1.0
+[0, 0, 29]
+x(289, 18, 28) -> 1.0
+[0, 0, 30]
+x(291, 18, 29) -> 1.0
+[0, 0, 31]
+x(295, 18, 30) -> 1.0
+[0, 0, 32]
+y(216, 18, 1) -> 1.0
+y(217, 18, 2) -> 1.0000000000000013
+y(219, 18, 3) -> 1.0000000000000013
+y(221, 18, 4) -> 1.0000000000000013
+y(223, 18, 5) -> 1.0000000000000013
+y(225, 18, 6) -> 1.0000000000000013
+y(227, 18, 7) -> 1.0000000000000013
+y(229, 18, 8) -> 1.0000000000000013
+y(232, 18, 9) -> 1.0
+y(234, 18, 10) -> 1.0
+y(238, 18, 11) -> 1.0
+y(240, 18, 12) -> 1.0
+y(244, 18, 13) -> 1.0
+y(246, 18, 14) -> 1.0
+y(250, 18, 15) -> 1.0
+y(252, 18, 16) -> 1.0
+y(256, 18, 17) -> 1.0
+y(258, 18, 18) -> 1.0
+y(262, 18, 19) -> 1.000000000000001
+y(264, 18, 20) -> 1.0
+y(268, 18, 21) -> 1.0
+y(270, 18, 22) -> 1.0
+y(273, 18, 23) -> 1.0
+y(276, 18, 24) -> 1.0
+y(279, 18, 25) -> 1.0
+y(282, 18, 26) -> 1.0
+y(285, 18, 27) -> 1.0
+y(289, 18, 28) -> 1.0
+y(291, 18, 29) -> 1.0
+y(295, 18, 30) -> 1.0
+FO: 0.90625
+0{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+1{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+2{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+3{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+4{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+5{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+6{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+7{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+8{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+9{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+10{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+11{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+12{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+13{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+14{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+15{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+16{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+17{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+18{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+19{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+20{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+21{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+22{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+23{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+24{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+25{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+26{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+27{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+28{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+29{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+30{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+31{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+32{'fb': 1, 'f8': 1, 'f7': 1, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+Running Stage - 1
+------------------------------------------------------------------------------------------------------------
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_RandomSeed                              202001241
+CPXPARAM_Emphasis_MIP                            2
+CPXPARAM_TimeLimit                               120
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1
+Presolve has eliminated 0 rows and 0 columns...
+Reduced MIP has 820234 rows, 815745 columns, and 1781316 nonzeros.
+Reduced MIP has 233702 binaries, 0 generals, 0 SOSs, and 232764 indicators.
+Presolve time = 0.45 sec. (155473.81 ticks)
+1 of 1 MIP starts provided solutions.
+MIP start 'm1' defined initial solution with objective 30.0000.
+Presolve has eliminated 326172 rows and 409364 columns...
+Tried aggregator 2 times.
+MIP Presolve eliminated 643269 rows and 503730 columns.
+MIP Presolve modified 903 coefficients.
+Aggregator did 84987 substitutions.
+Reduced MIP has 26599 rows, 51356 columns, and 60255 nonzeros.
+Reduced MIP has 25266 binaries, 0 generals, 0 SOSs, and 3213 indicators.
+Presolve time = 1.24 sec. (34129.84 ticks)
+Probing fixed 637 vars, tightened 2690 bounds.
+Probing time = 0.08 sec. (20.14 ticks)
+Cover probing fixed 0 vars, tightened 987 bounds.
+Tried aggregator 2 times.
+MIP Presolve eliminated 23344 rows and 47273 columns.
+MIP Presolve modified 1291 coefficients.
+Aggregator did 662 substitutions.
+Reduced MIP has 3853 rows, 3421 columns, and 13361 nonzeros.
+Reduced MIP has 1373 binaries, 30 generals, 0 SOSs, and 66 indicators.
+Presolve time = 0.03 sec. (39.01 ticks)
+Probing fixed 0 vars, tightened 12 bounds.
+Probing time = 0.01 sec. (1.90 ticks)
+Cover probing fixed 0 vars, tightened 19 bounds.
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 352 rows and 66 columns.
+MIP Presolve modified 184 coefficients.
+Aggregator did 49 substitutions.
+Reduced MIP has 3460 rows, 3306 columns, and 12542 nonzeros.
+Reduced MIP has 1342 binaries, 32 generals, 0 SOSs, and 58 indicators.
+Presolve time = 0.03 sec. (29.71 ticks)
+Probing time = 0.01 sec. (1.79 ticks)
+Clique table members: 6979.
+MIP emphasis: optimality.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.04 sec. (27.92 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           30.0000     -145.0000           583.33%
+      0     0      -90.0000   655       30.0000      -90.0000     1030  400.00%
+      0     0      -78.7008   529       30.0000     Cuts: 965     1936  362.34%
+      0     0      -62.1569   614       30.0000     Cuts: 965     2682  307.19%
+      0     0      -60.8502   626       30.0000     Cuts: 965     3356  302.83%
+      0     0      -59.1974   656       30.0000     Cuts: 965     3956  297.32%
+      0     0      -58.4479   682       30.0000     Cuts: 819     4566  294.83%
+      0     0      -55.5224   667       30.0000     Cuts: 752     5152  285.07%
+      0     0      -55.1769   675       30.0000     Cuts: 828     5593  283.92%
+*     0+    0                           22.0000      -55.1769           350.80%
+      0     0      -54.6774   755       22.0000     Cuts: 525     6258  348.53%
+*     0+    0                           20.0000      -54.6774           373.39%
+      0     0  -1.00000e+75     0       20.0000      -54.6774     6258  373.39%
+      0     0      -50.7280   658       20.0000     Cuts: 660     7132  353.64%
+      0     0      -47.3500   619       20.0000     Cuts: 965     8093  336.75%
+      0     0      -46.4236   689       20.0000     Cuts: 965     8870  332.12%
+      0     0      -45.0399   646       20.0000     Cuts: 899     9516  325.20%
+*     0+    0                           18.0000      -45.0399           350.22%
+      0     0      -44.6911   714       18.0000     Cuts: 953    10116  348.28%
+*     0+    0                           15.0000      -44.6911           397.94%
+      0     0  -1.00000e+75     0       15.0000      -44.6911    10116  397.94%
+      0     0      -43.8408   669       15.0000     Cuts: 805    10836  392.27%
+      0     0      -43.4250   708       15.0000     Cuts: 852    11374  389.50%
+      0     0      -42.7610   685       15.0000     Cuts: 677    11915  385.07%
+      0     0      -42.4970   679       15.0000     Cuts: 599    12386  383.31%
+      0     0      -42.4276   706       15.0000     Cuts: 649    12764  382.85%
+      0     0      -42.3603   697       15.0000     Cuts: 571    13237  382.40%
+      0     0      -42.0729   664       15.0000     Cuts: 465    13653  380.49%
+      0     0      -42.0037   675       15.0000     Cuts: 669    14003  380.02%
+      0     0      -41.9111   677       15.0000     Cuts: 616    14464  379.41%
+      0     0      -41.8581   717       15.0000     Cuts: 548    14774  379.05%
+*     0+    0                            9.0000      -41.8581           565.09%
+      0     0      -41.7997   733        9.0000     Cuts: 507    15144  560.93%
+      0     0      -40.6648   633        9.0000     Cuts: 369    15785  551.83%
+      0     0      -40.4422   669        9.0000     Cuts: 881    16354  549.36%
+      0     0      -40.3496   680        9.0000     Cuts: 619    16673  548.33%
+      0     0      -40.3034   701        9.0000     Cuts: 494    16872  547.82%
+      0     0      -40.2616   712        9.0000     Cuts: 428    17103  547.35%
+      0     0      -40.2112   710        9.0000     Cuts: 376    17348  546.79%
+      0     0      -40.1338   711        9.0000     Cuts: 360    17669  545.93%
+      0     0      -40.1047   745        9.0000     Cuts: 393    17904  545.61%
+      0     0      -40.0519   719        9.0000     Cuts: 370    18153  545.02%
+      0     0      -39.9084   718        9.0000     Cuts: 381    18374  543.43%
+      0     0      -39.8442   721        9.0000     Cuts: 309    18572  542.71%
+      0     0      -39.8253   735        9.0000     Cuts: 276    18702  542.50%
+      0     0      -39.7726   742        9.0000     Cuts: 209    18809  541.92%
+      0     0      -39.7623   728        9.0000     Cuts: 281    18948  541.80%
+      0     0      -39.7580   541        9.0000      Cuts: 70    19036  541.76%
+      0     0      -39.7533   589        9.0000     Cuts: 746    19288  541.70%
+*     0+    0                            6.0000      -39.7533           762.55%
+      0     2      -39.7533   553        6.0000      -39.7533    19288  762.55%
+Elapsed time = 15.27 sec. (196381.53 ticks, tree = 0.02 MB, solutions = 7)
+*    23+    5                            5.0000      -39.3202           886.40%
+*    28+    5                            4.0000      -39.3202              --- 
+     39    26      -25.6062   201        4.0000      -39.3202    25085     --- 
+*    41+    7                            0.0000      -39.3202              --- 
+*    88+   54                          -16.0000      -39.3202           145.75%
+    101    91      -23.7238   203      -16.0000      -39.3202    38394  145.75%
+    201   152      -33.7125   259      -16.0000      -39.3202    47117  145.75%
+    325   237      -29.5635   177      -16.0000      -39.3202    61447  145.75%
+*   402+  257                          -17.0000      -39.3202           131.30%
+    511   331      -20.5581    47      -17.0000      -39.3202    71498  131.30%
+    630   476      -29.9489   217      -17.0000      -39.3202    86355  131.30%
+    751   533      -27.2524   128      -17.0000      -39.3202    93981  131.30%
+    927   590      -37.6637   484      -17.0000      -39.3202   104344  131.30%
+*   933+  691                          -19.0000      -39.3202           106.95%
+   1135   748      -24.3711   111      -19.0000      -39.1282   117270  105.94%
+   1558  1151      -37.0184   460      -19.0000      -39.0032   175927  105.28%
+Elapsed time = 24.32 sec. (199492.37 ticks, tree = 4.96 MB, solutions = 13)
+   1851  1410      -38.0925   503      -19.0000      -38.5748   229341  103.03%
+   2071  1650      -25.6113   358      -19.0000      -38.5090   287635  102.68%
+   2483  1959      -33.8545   303      -19.0000      -38.4534   344177  102.39%
+   2758  2282      -38.0074   479      -19.0000      -38.3211   402813  101.69%
+   3028  2511      -37.2118   395      -19.0000      -38.2442   458551  101.29%
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 492 rows and 512 columns.
+MIP Presolve modified 2249 coefficients.
+Aggregator did 78 substitutions.
+Reduced MIP has 2890 rows, 2716 columns, and 9162 nonzeros.
+Reduced MIP has 1146 binaries, 32 generals, 0 SOSs, and 58 indicators.
+Presolve time = 0.03 sec. (21.24 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 49 coefficients.
+Reduced MIP has 2891 rows, 2716 columns, and 9164 nonzeros.
+Reduced MIP has 1146 binaries, 32 generals, 0 SOSs, and 57 indicators.
+Presolve time = 0.01 sec. (8.49 ticks)
+Represolve time = 0.57 sec. (485.47 ticks)
+   3226     0      -35.6090   464      -19.0000     Cuts: 650   501577   87.42%
+   3226     0      -34.9371   385      -19.0000     Cuts: 435   502077   83.88%
+   3226     0      -34.4086   465      -19.0000     Cuts: 483   502566   81.10%
+   3226     0      -33.3417   430      -19.0000     Cuts: 491   503234   75.48%
+   3226     0      -32.5184   413      -19.0000     Cuts: 430   503677   71.15%
+   3226     0      -31.5351   382      -19.0000     Cuts: 339   503981   65.97%
+   3226     0      -30.5760   364      -19.0000     Cuts: 286   504411   60.93%
+   3226     0      -29.9662   385      -19.0000     Cuts: 556   504974   57.72%
+   3226     0      -29.6606   325      -19.0000     Cuts: 323   505316   56.11%
+   3226     0      -29.1866   331      -19.0000     Cuts: 353   505747   53.61%
+   3226     0      -28.9385   374      -19.0000     Cuts: 307   506052   52.31%
+   3226     0      -28.6921   325      -19.0000     Cuts: 381   506366   51.01%
+   3226     0      -28.5774   369      -19.0000     Cuts: 256   506577   50.41%
+   3226     0      -28.5568   361      -19.0000     Cuts: 241   506737   50.30%
+   3226     0      -28.5232   372      -19.0000     Cuts: 192   506910   50.12%
+   3226     0      -28.5053   392      -19.0000     Cuts: 261   507033   50.03%
+   3226     0      -28.3863   346      -19.0000     Cuts: 134   507172   49.40%
+   3226     0      -28.3495   374      -19.0000     Cuts: 169   507321   49.21%
+   3226     0      -28.2989   372      -19.0000     Cuts: 153   507410   48.94%
+   3226     0      -28.2942   411      -19.0000     Cuts: 212   507548   48.92%
+   3226     0      -28.2851   382      -19.0000     Cuts: 152   507686   48.87%
+   3226     0      -28.2797   396      -19.0000     Cuts: 213   507828   48.84%
+   3226     0      -28.2764   382      -19.0000     Cuts: 133   508083   48.82%
+   3226     0      -28.2227   372      -19.0000     Cuts: 234   508384   48.54%
+   3226     0      -28.2126   413      -19.0000     Cuts: 407   508632   48.49%
+   3226     0      -28.2005   407      -19.0000     Cuts: 185   508812   48.42%
+   3226     0      -28.1880   397      -19.0000     Cuts: 174   508932   48.36%
+   3226     0      -28.1851   406      -19.0000     Cuts: 110   509019   48.34%
+   3226     0      -28.1323   372      -19.0000      Cuts: 45   509069   48.06%
+   3226     0      -28.1311   404      -19.0000     Cuts: 203   509225   48.06%
+   3226     0      -28.1300   390      -19.0000      Cuts: 74   509323   48.05%
+   3226     2      -28.1300   373      -19.0000      -28.1300   509323   48.05%
+   3227     3      -27.8467   331      -19.0000      -27.8638   509867   46.65%
+   3236     6      -22.7482   218      -19.0000      -27.8467   511802   46.56%
+   3360    48      -22.1653    97      -19.0000      -27.5330   522695   44.91%
+   3704   276        cutoff            -19.0000      -27.1216   551618   42.75%
+Elapsed time = 61.24 sec. (214184.89 ticks, tree = 0.34 MB, solutions = 13)
+   4048   500      -20.2029   175      -19.0000      -23.8427   610667   25.49%
+   4592   892      -20.2017   104      -19.0000      -21.3795   685054   12.52%
+   5119  1207        cutoff            -19.0000      -20.7422   757575    9.17%
+   5589  1480      -20.0703    52      -19.0000      -20.4535   818078    7.65%
+   5876  1730      -20.0460    88      -19.0000      -20.3524   877411    7.12%
+   6027  1811      -20.2057    91      -19.0000      -20.2828   926216    6.75%
+   6322  1953      -20.1831    74      -19.0000      -20.2626   990440    6.65%
+   6849  2361      -20.1831    57      -19.0000      -20.1965  1068512    6.30%
+   7389  2806      -19.0929   178      -19.0000      -20.1831  1149938    6.23%
+   7930  3091      -20.0000    30      -19.0000      -20.1753  1189585    6.19%
+Elapsed time = 95.57 sec. (223744.80 ticks, tree = 4.87 MB, solutions = 13)
+   8229  3354      -20.0301   109      -19.0000      -20.1181  1240657    5.88%
+   8762  3582        cutoff            -19.0000      -20.0988  1303540    5.78%
+   9218  3815        cutoff            -19.0000      -20.0607  1373796    5.58%
+   9722  4004        cutoff            -19.0000      -20.0338  1414057    5.44%
+  10062  4316      -19.6676    57      -19.0000      -20.0161  1487055    5.35%
+  10182  4447      -19.8333    84      -19.0000      -20.0000  1542133    5.26%
+
+GUB cover cuts applied:  34
+Clique cuts applied:  184
+Cover cuts applied:  43
+Implied bound cuts applied:  339
+Flow cuts applied:  125
+Mixed integer rounding cuts applied:  1111
+Zero-half cuts applied:  22
+Lift and project cuts applied:  55
+Gomory fractional cuts applied:  270
+
+Root node processing (before b&c):
+  Real time             =   15.25 sec. (196422.83 ticks)
+Parallel b&c, 8 threads:
+  Real time             =  104.83 sec. (33808.59 ticks)
+  Sync time (average)   =   14.24 sec.
+  Wait time (average)   =    0.02 sec.
+                          ------------
+Total (root+branch&cut) =  120.07 sec. (230231.41 ticks)
+Stage 1 - Alocation Time: 63.16941022872925
+Stage 1 - Enlapsed Time: 120.84929990768433
+x(68, 17, 1) -> 1.0
+[0, 2, 3]
+x(76, 17, 5) -> 1.0
+[0, 2, 7]
+x(78, 17, 6) -> 1.0
+[0, 2, 8]
+x(80, 17, 7) -> 1.0
+[0, 2, 9]
+x(82, 17, 8) -> 1.0
+[0, 2, 10]
+x(87, 17, 9) -> 1.0
+[0, 2, 11]
+x(90, 17, 10) -> 1.0
+[0, 3, 12]
+x(98, 17, 11) -> 1.0
+[0, 4, 13]
+x(104, 17, 12) -> 1.0
+[0, 4, 14]
+x(111, 17, 13) -> 1.0
+[0, 2, 15]
+x(118, 17, 14) -> 1.0
+[0, 3, 16]
+x(120, 17, 15) -> 1.0
+[0, 3, 17]
+x(126, 17, 16) -> 1.0
+[0, 3, 18]
+x(136, 17, 17) -> 1.0
+[0, 3, 19]
+x(140, 17, 18) -> 1.0
+[0, 4, 20]
+x(146, 17, 19) -> 1.0
+[0, 4, 21]
+x(152, 17, 20) -> 1.0
+[0, 4, 22]
+x(159, 17, 21) -> 1.0
+[0, 2, 23]
+x(162, 17, 22) -> 1.0
+[0, 3, 24]
+x(168, 17, 23) -> 1.0
+[0, 5, 25]
+x(176, 17, 24) -> 1.0
+[0, 6, 26]
+x(184, 17, 25) -> 1.0
+[0, 5, 27]
+x(186, 17, 26) -> 1.0
+[0, 5, 28]
+x(192, 17, 27) -> 1.0
+[0, 5, 29]
+x(198, 17, 28) -> 1.0
+[0, 5, 30]
+x(206, 17, 29) -> 1.0
+[0, 6, 31]
+x(212, 17, 30) -> 1.0
+[0, 6, 32]
+x(217, 18, 2) -> 1.0
+[0, 0, 4]
+x(219, 18, 3) -> 1.0
+[0, 0, 5]
+x(221, 18, 4) -> 1.0
+[0, 0, 6]
+x(222, 18, 4) -> 1.0
+[0, 0, 6]
+y(68, 17, 1) -> 1.0
+y(76, 17, 5) -> 1.0
+y(78, 17, 6) -> 1.0
+y(80, 17, 7) -> 1.0
+y(82, 17, 8) -> 1.0
+y(87, 17, 9) -> 1.0
+y(90, 17, 10) -> 1.0
+y(98, 17, 11) -> 1.0
+y(104, 17, 12) -> 1.0
+y(111, 17, 13) -> 1.0
+y(118, 17, 14) -> 1.0
+y(120, 17, 15) -> 1.0
+y(126, 17, 16) -> 1.0
+y(136, 17, 17) -> 1.0
+y(140, 17, 18) -> 1.0
+y(146, 17, 19) -> 1.0
+y(152, 17, 20) -> 1.0
+y(159, 17, 21) -> 1.0
+y(162, 17, 22) -> 1.0
+y(168, 17, 23) -> 1.0
+y(176, 17, 24) -> 1.0
+y(184, 17, 25) -> 1.0
+y(186, 17, 26) -> 1.0
+y(192, 17, 27) -> 1.0
+y(198, 17, 28) -> 1.0
+y(206, 17, 29) -> 1.0
+y(212, 17, 30) -> 1.0
+y(217, 18, 2) -> 1.0
+y(219, 18, 3) -> 1.0
+y(221, 18, 4) -> 0.09999999999999998
+y(222, 18, 4) -> 0.9
+FO: -19.0
+0{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+1{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+2{'fb': 8, 'f8': 8, 'f7': 8, 'f6': 0, 'f5': 0, 'f4': 0, 'f3': 0, 'f2': 0, 'f1': 0, 'f0': 0}
+3{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+4{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+5{'fb': 6, 'f8': 6, 'f7': 6, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+6{'fb': 5, 'f8': 5, 'f7': 5, 'f6': 2, 'f5': 2, 'f4': 2, 'f3': 2, 'f2': 2, 'f1': 2, 'f0': 2}
+7{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+8{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+9{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+10{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+11{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+12{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+13{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+14{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+15{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+16{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+17{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+18{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+19{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+20{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+21{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+22{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+23{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+24{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+25{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+26{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+27{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+28{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+29{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+30{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+31{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+32{'fb': 0, 'f8': 0, 'f7': 0, 'f6': 1, 'f5': 1, 'f4': 1, 'f3': 1, 'f2': 1, 'f1': 1, 'f0': 1}
+TOTAL TIME: 248.3443124294281
+k:  26
+centralization_points [1, 3, 5, 7, 9, 2, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 4, 6, 8, 10, 26, 28, 30, 32, 12]
+Running Stage - 0
+------------------------------------------------------------------------------------------------------------
