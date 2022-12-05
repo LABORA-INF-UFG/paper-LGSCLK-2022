@@ -10,9 +10,9 @@ import random
 import os
 import signal
 
-LINKS = 'T2_Topologies/25_CRs_links_LC.json'
-NODES = 'T2_Topologies/25_CRs_nodes_LC.json'
-data_file = 'graficos/heuristic_model_dados.json'
+LINKS = '../topologies/T2_Topologies/25_CRs_links_LC.json'
+NODES = '../topologies/T2_Topologies/25_CRs_nodes_LC.json'
+data_file = '../results/graficos/heuristic_model_dados.json'
 
 hierarchical = True
 experiment_time = 240

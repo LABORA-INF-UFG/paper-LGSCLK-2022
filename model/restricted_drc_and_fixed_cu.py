@@ -6,9 +6,9 @@ import sys
 from util import data_generator
 import argparse
 
-LINKS = 'T2_Topologies/32_CRs_links_LC.json'
-NODES = 'T2_Topologies/32_CRs_nodes_LC.json'
-data_file = 'graficos/rest_drc_fix_cu_dados.json'
+LINKS = '../topologies/T2_Topologies/32_CRs_links_LC.json'
+NODES = '../topologies/T2_Topologies/32_CRs_nodes_LC.json'
+data_file = '../results/graficos/rest_drc_fix_cu_dados.json'
 
 hierarchical = True
 

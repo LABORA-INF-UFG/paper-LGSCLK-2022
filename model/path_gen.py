@@ -10,8 +10,8 @@ j_stop = 1
 
 hierarchical = True
 
-LINKS = 'T2_Topologies/25_CRs_links_LC.json'
-NODES = 'T2_Topologies/25_CRs_nodes_LC.json'
+LINKS = '../topologies/T2_Topologies/25_CRs_links_LC.json'
+NODES = '../topologies/T2_Topologies/25_CRs_nodes_LC.json'
 
 
 def find_latency(p):
