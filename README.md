@@ -12,7 +12,7 @@
 
 
 
-![topo_fig](https://github.com/LABORA-INF-UFG/paper-LGSCLK-2022/blob/main/topologies.pdf)
+![topo_fig](https://github.com/LABORA-INF-UFG/paper-LGSCLK-2022/blob/main/topologies.png)
 
 ## Paths
 
